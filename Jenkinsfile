@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'myp1' }
+    agent { label 'myp2' }
      triggers {
         cron('59 23 * * *')
     }
